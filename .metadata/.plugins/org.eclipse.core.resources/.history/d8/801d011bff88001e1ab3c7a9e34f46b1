@@ -1,0 +1,40 @@
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Map;
+import java.util.Set;
+import java.util.function.Function;
+import java.util.stream.Collectors;
+
+public class Even {
+	public static void main(String[] args) {
+		String str="javatest";
+		Map<Character,Long> map=str.chars().mapToObj(s->Character.valueOf((char)s)).collect(Collectors.groupingBy(Function.identity(),Collectors.counting()));
+		System.out.println(map);
+		public boolean contains() {
+		ArrayList<Integer> al=new ArrayList();
+		al.add(2);
+		al.add(3);
+		al.add(4);
+		al.add(5);
+		al.add(6);
+		List<Integer> Even= al.stream().filter(a->a%2==0).collect(Collectors.toList());
+	System.out.println(Even);
+	List<Integer> odd= al.stream().filter(a->a%2!=0).collect(Collectors.toList());
+	System.out.println(odd);
+	Set<Integer> set=new HashSet(al);
+	if(al.size()==set.size()) {
+		return true;
+	}
+	return false;
+	}
+	//frequency of string
+	
+	
+	
+	//checking unique elements
+	
+	
+	
+
+}

@@ -1,0 +1,24 @@
+
+public class Permu {
+
+	public static void main(String[] args) {
+		String str="abcd";
+		char ch[]=str.toCharArray();
+		for(int i=0;i<ch.length;i++) {
+			char c=ch[i];{
+				for(int j=0;j<ch.length;j++) {
+					char temp=c;
+					c=ch[j];
+					ch[j]=temp;
+				}
+			}
+			for(char a:ch) {
+				System.out.print(a+" ");
+			}
+		}
+		
+	}
+
+
+
+}

@@ -1,0 +1,18 @@
+import java.util.ArrayList;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+ArrayList<Emp> list=new ArrayList<>();
+list.add(new Emp(20,"Ram",2000));
+list.add(new Emp(25,"jam",3000));
+list.add(new Emp(26,"mam",4000));
+list.add(new Emp(27,"bam",5000));
+System.out.println("unsorted employee");
+for(Emp e:list) {
+	System.out.println(e);
+}
+	}
+
+}

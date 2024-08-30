@@ -1,0 +1,10 @@
+import java.util.Arrays;
+
+public class Even {
+	public static void main(String[] args) {
+		int arr[]= {10,2,5,1,66,3};
+		Arrays.parallelSort(arr);
+		System.out.println(arr.toString());
+	
+	}
+}

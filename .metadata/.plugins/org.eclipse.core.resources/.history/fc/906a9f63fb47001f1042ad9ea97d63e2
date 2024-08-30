@@ -1,0 +1,12 @@
+
+public class Prefix {
+
+	public static void main(String[] args) {
+      String str[]= {"fl","flow","flw","flower"};
+      String pre= str[0];
+     
+      System.out.println(str[3].indexOf(pre));
+
+	}
+
+}

@@ -1,0 +1,16 @@
+
+public class Tuple {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+	long start=	System.currentTimeMillis();
+	//String str="hi";
+	StringBuffer sb=new StringBuffer();
+	for(int i=1;i<50000;i++) {
+		sb=sb.append(i);
+	}
+	long end=	System.currentTimeMillis();
+	System.out.println(end-start);
+	}
+
+}

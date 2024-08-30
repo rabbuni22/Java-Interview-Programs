@@ -1,0 +1,14 @@
+import java.util.LinkedHashMap;
+import java.util.Map;
+import java.util.Set;
+
+public class Abc {
+
+	public static void boot(String[] args) {
+		// TODO Auto-generated method stub
+	System.out.println("hello");
+	}
+
+	}
+
+

@@ -1,0 +1,25 @@
+import java.util.Arrays;
+
+public class Permu {
+
+	public static void main(String[] args) {
+		String str="ab";
+		char ch[]=str.toCharArray();//a b c d
+		for(int i=0;i<ch.length-1;i++) {
+	         char fx=ch[i];		
+				for( int j=0;j<ch.length;j++) {
+					char temp=ch[i];
+					ch[i]=ch[j];
+					ch[j]=temp;
+					System.out.println(str);
+				}
+				
+			}
+		
+		}
+		
+	}
+
+
+
+

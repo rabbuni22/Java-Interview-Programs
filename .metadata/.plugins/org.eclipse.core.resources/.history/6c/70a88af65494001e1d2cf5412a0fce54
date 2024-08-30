@@ -1,0 +1,19 @@
+
+public class Test{
+		  public static void main(String args[]) {
+		       foo(null);
+			 
+			  }
+
+		public static void foo(Object object) {
+			// TODO Auto-generated method stub
+			System.out.println("object impl");
+		}
+		public static void foo(String str) {
+			// TODO Auto-generated method stub
+			System.out.println("sting impl");
+		}
+			      
+		  
+
+	}

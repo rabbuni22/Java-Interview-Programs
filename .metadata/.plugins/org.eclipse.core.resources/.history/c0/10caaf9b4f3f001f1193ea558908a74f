@@ -1,0 +1,16 @@
+
+public class MoveZeros {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		MoveZeros.printArray();
+	}
+	  public static  void printArray() {
+	    	 message();
+	     }
+	  public   void message() {
+	    	 System.out.println("hello");
+	     }
+
+
+}

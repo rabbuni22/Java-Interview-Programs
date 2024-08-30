@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;Abc.java&apos; to &apos;CountCharacterOccurence.java&apos;&#x0D;&#x0A;- Original project: &apos;String_Character_Occurences&apos;&#x0D;&#x0A;- Original element: &apos;Abc.java&apos;&#x0D;&#x0A;- Renamed element: &apos;CountCharacterOccurence.java&apos;" description="Rename compilation unit &apos;Abc.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;{Abc.java" name="CountCharacterOccurence.java" references="false" stamp="1681555973523" version="1.0"/>
+</session>

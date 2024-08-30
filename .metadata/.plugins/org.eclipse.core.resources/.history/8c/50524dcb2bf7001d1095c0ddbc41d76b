@@ -1,0 +1,15 @@
+import java.util.ArrayList;
+import java.util.Arrays;
+
+public class ArrayToList {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+String cities[]= {"Bandar","Bejwada","vizag"};
+ArrayList<String> al=new ArrayList<>(Arrays.asList(cities));
+al.add("Amaravati");
+al.add("Tirupati");
+System.out.println(al);
+	}
+
+}

@@ -1,0 +1,11 @@
+
+public class Client{
+public static void main(String[] args) {
+	
+	 Test1 t=()->System.out.println("this is using lamda ex.."); 
+t.calculate();
+}
+
+	
+
+}

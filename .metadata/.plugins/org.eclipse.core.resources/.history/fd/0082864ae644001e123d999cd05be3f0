@@ -1,0 +1,14 @@
+
+public class Practise {
+
+	
+	String str="mango";
+	Arrays.
+	// Arrays.asList(str).stream () .map (s -> new StringBuilder (s).reverse ().toString ()) .collect (Collectors.toList ()).get (0);
+
+}
+class Test{
+public static void main(String[] args) {
+	
+}
+}

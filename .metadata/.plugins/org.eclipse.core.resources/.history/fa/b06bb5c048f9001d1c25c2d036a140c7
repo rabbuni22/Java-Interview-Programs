@@ -1,0 +1,16 @@
+
+public class Client implements Test1{
+public static void main(String[] args) {
+	
+	 Test1 t=()->System.out.println("this is using lamda ex.."); 
+t.calculate();
+}
+
+@Override
+public void calculate() {
+	// TODO Auto-generated method stub
+	
+}
+	
+
+}

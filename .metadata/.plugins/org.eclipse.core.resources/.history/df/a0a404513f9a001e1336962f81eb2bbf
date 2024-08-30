@@ -1,0 +1,15 @@
+
+public class Tuple {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+	long start=	System.currentTimeMillis();
+	String str="hi";
+	for(int i=1;i<50000;i++) {
+		str=str+i;
+	}
+	long end=	System.currentTimeMillis();
+	System.out.println(end-start);
+	}
+
+}

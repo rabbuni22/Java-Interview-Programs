@@ -1,0 +1,23 @@
+import java.util.LinkedHashMap;
+import java.util.Map;
+import java.util.Set;
+
+public class Abc {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+	int num=2;
+	}
+	public void prime(int num){
+		for(int i=2;i<num;i++) {
+			if(num%i==0) {
+			System.out.println("the given no is not prime");
+			}else
+				System.out.println("the given no is prime");
+		}
+	}
+	
+
+	}
+
+

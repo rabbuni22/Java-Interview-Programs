@@ -1,0 +1,18 @@
+import java.util.Arrays;
+import java.util.List;
+import java.util.stream.Collectors;
+
+public class Even {
+	public static void main(String[] args) {
+		List<String> strings = Arrays.asList("",null,"kris","amk","tex");
+		Object[] ch=strings.toArray();
+		for()
+
+		List<String> str=strings.stream().map(s->s+ "").collect(Collectors.toList());
+		
+		System.out.println(str);
+
+	
+	}
+}
+

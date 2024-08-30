@@ -1,0 +1,13 @@
+package bb;
+
+import java.util.ArrayList;
+
+public class Employee {
+	ArrayList<Employee> al=new ArrayList();
+	al.stream().sorted(Comparator.comparingDouble(Employee::getSalary))
+	.map(x->x.getSalary())
+	.skip(1)
+	.findFirst()
+	.collect(Collectors.toList());
+
+}
